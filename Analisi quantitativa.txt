@@ -1,0 +1,56 @@
+=== RetweetCount (solo tweet originali) ===
+count    573125.000000
+mean          4.804547
+std         136.839364
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max       29358.000000
+Name: retweetCount, dtype: float64
+
+=== FavoriteCount (solo tweet originali) ===
+count    573125.000000
+mean         21.098171
+std         533.626007
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           2.000000
+max       99826.000000
+Name: favoriteCount, dtype: float64
+
+=== FavoriteCount (solo retweet) ===
+count    2102419.0
+mean           0.0
+std            0.0
+min            0.0
+25%            0.0
+50%            0.0
+75%            0.0
+max            0.0
+Name: favoriteCount, dtype: float64
+
+=== Engagement (solo tweet originali) ===
+count    573125.000000
+mean         25.902718
+std         660.707735
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%           3.000000
+max      120936.000000
+Name: engagement, dtype: float64
+
+=== Engagement (solo retweet) ===
+count    2.102419e+06
+mean     3.824503e+03
+std      8.119903e+03
+min      0.000000e+00
+25%      7.200000e+01
+50%      6.620000e+02
+75%      3.455000e+03
+max      2.066490e+05
+Name: engagement, dtype: float64
+
+=== Correlazione Retweet-Like (solo tweet originali): 0.9111 ===

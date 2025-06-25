@@ -1,0 +1,72 @@
+Trump sentiment (%):
+ sentiment
+positive    71.45815
+negative    21.75323
+neutral      6.78862
+Name: proportion, dtype: float64
+
+Biden sentiment (%):
+ sentiment
+positive    62.082925
+negative    27.676559
+neutral     10.240516
+Name: proportion, dtype: float64
+
+Engagement Medio Trump:
+            retweetCount  favoriteCount
+sentiment                             
+negative       3.786561      19.149588
+neutral        4.336553      17.020782
+positive       2.148019      17.425726
+
+Engagement Medio Biden:
+            retweetCount  favoriteCount
+sentiment                             
+negative       7.502451      25.965342
+neutral        6.995967      27.815027
+positive       6.190212      24.192208
+Statistiche di sintesi Trump (compound):
+count    251627.000000
+mean          0.323044
+std           0.495844
+min          -0.994700
+25%           0.000000
+50%           0.505200
+75%           0.726900
+max           0.994200
+Name: compound, dtype: float64
+
+Statistiche di sintesi Biden (compound):
+count    280855.000000
+mean          0.189513
+std           0.493930
+min          -0.995000
+25%          -0.128000
+50%           0.273200
+75%           0.599400
+max           0.991000
+Name: compound, dtype: float64
+Trump - Tweet totali: 251627
+
+Biden - Tweet totali: 280855
+
+Engagement Medio Trump:
+            retweetCount  favoriteCount
+sentiment                             
+negative       3.786561      19.149588
+neutral        4.336553      17.020782
+positive       2.148019      17.425726
+
+Engagement Medio Biden:
+            retweetCount  favoriteCount
+sentiment                             
+negative       7.502451      25.965342
+neutral        6.995967      27.815027
+positive       6.190212      24.192208
+
+Trump - Tweet con engagement = 0: 122116
+Biden - Tweet con engagement = 0: 147813
+Trump - RetweetCount mean: 2.6530261061014917
+Trump - FavoriteCount mean: 17.77323180739746
+Biden - RetweetCount mean: 6.635908208862224
+Biden - FavoriteCount mean: 25.05394598636307
